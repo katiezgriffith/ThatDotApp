@@ -6,8 +6,8 @@ function getStartDate(state) {
     let startDate = null;
     /*
     iterate date from today to back
-    find the start of the most recend Period date
-    whitch is the startDate
+    find the start of the most recent Period date
+    which is the startDate
     */
     for (const date of Object.keys(userData).sort()) {
         if (userData[date]["Blood"] === 0) { 
@@ -15,7 +15,7 @@ function getStartDate(state) {
             if (startDate !== null) {
                 return startDate;
             } 
-        // if it is none, continue to find the most recend period date    
+        // if it is none, continue to find the most recent period date    
         } else {    
         // in period, update startDate
             startDate = date;
