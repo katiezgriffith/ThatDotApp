@@ -49,7 +49,7 @@ class Home extends React.Component{
     const date = value["date"].toString();
     const userData = this.props.state["userData"];
     const startDate = this.props.state["startDate"];
-    const totalDuration = this.props.state["totaolDuration"];
+    const totalDuration = this.props.state["totalDuration"];
     const periodDuration = this.props.state["periodDuration"];
     const msPerDay = 60*60*24*1000;
     if (view !== "month") {
@@ -112,7 +112,7 @@ class Home extends React.Component{
           {/* Add Button */}
           <div className="container-div">
           <div className="sub-container">
-          <Fab size="medium" color="secondary" aria-label="add" 
+          <Fab size="medium" color="primary" aria-label="add" 
                className={useStyles.margin} onClick={this.handleClick}>
             <AddIcon />
           </Fab>
