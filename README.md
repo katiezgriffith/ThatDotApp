@@ -18,3 +18,4 @@ being better able to be in tune with their body.
 1. Login Page
 2. Fun Element(poll) How would you rate that day? (with image or string)
 3. See if I can connect it to user's personal google calendar.
+# Dotapps
