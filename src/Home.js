@@ -7,7 +7,7 @@ import Container from '@material-ui/core/Container';
 import Fab from '@material-ui/core/Fab';
 import IconButton from '@material-ui/core/IconButton';
 import AddIcon from '@material-ui/icons/Add';
-import MoreIcon from '@material-ui/icons/MoreVert';
+import MusicNoteIcon from '@mui/icons-material/MusicNote';
 
 // https://www.npmjs.com/package/react-calendar
 // https://reactjsexample.com/ultimate-calendar-for-your-react-app/
@@ -89,9 +89,10 @@ class Home extends React.Component{
                 <Typography variant="h6" color="inherit" className={useStyles.title}>
                   Let's Track Your Period
                 </Typography>
+                
                 <IconButton edge="end" color="inherit" target="_blank"
-                    href="https://http://localhost:3000/">
-                  <MoreIcon />
+                    href="https://youtu.be/Q5faxRj1WFA">
+                  <MusicNoteIcon />
                 </IconButton>
               </Toolbar>
             </AppBar>

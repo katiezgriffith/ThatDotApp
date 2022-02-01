@@ -24,6 +24,6 @@
 }
 
 .MuiButtonBase-root.MuiButton-root.MuiButton-contained.MuiButton-containedPrimary{
-    color: firebrick;
-    background-color: pink;
+    color: white;
+    background-color: teal;
 }
