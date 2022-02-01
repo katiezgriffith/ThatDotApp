@@ -36,15 +36,8 @@ class Home extends React.Component{
   }
 
   handleRenderCalendar(value) {
-    /*className
-      blood-0
-      blood-1
-      blood-2
-      blood-3
-      blood-4
-      predict-0
-      predict-1
-    */
+   
+    
     const view = value["view"];
     const date = value["date"].toString();
     const userData = this.props.state["userData"];
